@@ -357,7 +357,7 @@ size_t MicroOLED::write(uint8_t c)
 
     MicroOLED's cursor position to x,y.
 */
-void MicroOLED::setCursor(uint8_t x, uint8_t y) {
+void MicroOLED::setCursor(int8_t x, int8_t y) {
 	cursorX=x;
 	cursorY=y;
 }
